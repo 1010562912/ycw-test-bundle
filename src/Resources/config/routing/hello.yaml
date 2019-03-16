@@ -1,0 +1,9 @@
+ycw_test_hello:
+  path: /
+  defaults: {_controller: Ycw\TestBundle\Controller\HelloController:index}
+ycw_test_test:
+    path: /test
+    defaults: {_controller: Ycw\TestBundle\Controller\HelloController:test}
+ycw_test_log:
+  path: /setLog
+  defaults: {_controller: Ycw\TestBundle\Controller\HelloController:setLog}

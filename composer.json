@@ -1,0 +1,29 @@
+{
+  "name": "ycw/ycw-test-bundle",
+  "type": "symfony-bundle",
+  "authors": [
+    {
+      "name": "yuchangwei",
+      "email": "yuchangwei@cqxiaokang.com"
+    }
+  ],
+  "license": "MIT",
+  'require': {
+    "php": "^7.1.3",
+    "symfony/framework-bundle": "4.2.*",
+    "symfony/orm-pack": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ycw\\TestBundle\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Ycw\\TestBundle\\Tests\\": "Tests/"
+    }
+  },
+  "conflict": {
+    "symfony/symfony": "*"
+  }
+}

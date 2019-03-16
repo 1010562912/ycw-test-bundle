@@ -1,0 +1,6 @@
+services:
+    Ycw\TestBundle\Services\LogService:
+        class: Ycw\TestBundle\Services\LogService
+        public: true
+        arguments:
+            - log_path: '../logs/test_service.log'

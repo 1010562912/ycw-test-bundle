@@ -1,0 +1,4 @@
+# src/Resources/config/routing.yaml
+ycw_test2:
+  prefix: /hello
+  resource: "routing/hello.yaml"
