@@ -30,4 +30,4 @@ ycw_test.yaml 路由如下:
           prefix: /
           resource: '@YcwTestBundle/Resources/config/routing.yaml'
 
-配置完成，执行命令`bin/console debug:route`查看路由设置2；
+配置完成，执行命令`bin/console debug:route`查看路由设置3；
