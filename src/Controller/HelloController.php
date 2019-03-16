@@ -23,7 +23,11 @@ class HelloController extends Controller
         echo 111;
         return $this->render('@YcwTest/hello/test.html.twig');
     }
-
+    public function test2()
+    {
+        echo 222;
+        return $this->render('@YcwTest/hello/test.html.twig');
+    }
     /**
      * Notes:日志服务
      * User: ycw
